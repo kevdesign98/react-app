@@ -1,0 +1,35 @@
+className === classe css ---> il nome della classe posso metterci il trattino;
+className="lorem-ipsum"
+
+class === classe js;
+
+id posso usarlo tranquillamente;
+
+
+
+
+frammenti === <></> vanno dentro al return altrimenti non funziona una sega;
+
+le parentesi graffe servono ad infilare valori javascript e non html
+doppie parentesi graffe servono per gli oggetti stile in linea
+una parentesi graffa ci infilo la const con i valori
+
+className={`rounded-lg w-72 h-72 ${x < 10 ? "bg-red-500 rotate-45" : "bg-sky-500"}`}>x è {x}
+
+props componenti === cose dinamiche ---> è come chiamare una parte di un oggetto ---> props.title ecc
+diversi metodi per chiamarli :
+metterlo all'inizio dentro la funzione --> function Card(props){const title = props.title}
+oppure mettere ({title, imgURL}) le const dentro le graffe
+
+Rendering Condizionale ---> if
+si usa il ternary operator oppure anche l'operator and --> &&
+! ---> not ---> Converte l’operando a booleano: true/false
+
+Rendering list si fa con map e filter e il props key
+prop key === id array/obj sono id univoci
+
+preventDefault ---> previene er default non ricarica la pagina quando pigi su un bottone
+
+state-----> const array = useState(0) ----> const [array] = useState(0) 
+
+interface si usa in TS --->da li possiamo far passare i dati dai props
